@@ -1,0 +1,14 @@
+{
+  "name": "ts_model_project",
+  "version": "1.0.0",
+  "description": "TS model project",
+  "main": "_main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "tsc": "__myTSC.bat"
+  },
+  "author": "Richard PAYET",
+  "license": "ISC"
+
+}
