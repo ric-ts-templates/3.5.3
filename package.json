@@ -5,12 +5,7 @@
   "author": "Richard PAYET",
   "license": "ISC",
   "scripts": {
-    "tsc": "__myTSC.bat"
+    "tsc": "__myTSC2.bat"
   },
-  "types": "",
-  "dependencies": {
-    "@rick.info.dev/lib-general-es5": "^0.0.0",
-    "@rick.info.dev/lib-general-es6": "^0.0.1"
-  },
-  "devDependencies": {}
+  "types": ""
 }

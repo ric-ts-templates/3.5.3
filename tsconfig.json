@@ -28,7 +28,7 @@
 
                      
 
-    //,"allowJs": true  //INDISPENSABLE pour que les .js sources puissent être mis au format 
+    ,"allowJs": true  //INDISPENSABLE pour que les .js sources puissent être mis au format 
                       //target, dans le répertoire outDir.
 
                       
@@ -62,12 +62,6 @@
     //            2b- aucun élément du tableau associé ne match, alors la recherche avec paths est abandonnée
     //                ET la recherche avec baseUrl toute seule est AUSSI abandonnée !! <<<<<<
     ,"paths": {
-      //"@rick-lib/general/es5*": ["node_modules/@rick.info.dev/lib-general-es5*"],
-      //"@rick-lib/general/es6*": ["node_modules/@rick.info.dev/lib-general-es6*"]
-      //"./app/*.js": ["_src/app/*.js"]
-      //"@libs/libTS/*.js": ["./node_modules/@rick.info.dev/lib-general-ts/*.js"]
-      "libs/TS/*.js": ["node_modules/@rick.info.dev/lib-general-ts/*.js"]
-      //
     }
 
     //REMARQUE : si l'emplacement de modules a réussi à être résolu via 'baseUrl' ou 'baseUrl couplé à paths',
@@ -92,11 +86,9 @@
   //          baseUrl.... permet aussi, sous certaines conditions, de faire passer des .ts 
   //          de node_modules (par exemple), en .js dans le outDir.
 
-   //,"include": [
-     //"./node_modules/@rick.info.dev/lib-general-es5/**/*",
-     //"./node_modules/@rick.info.dev/lib-general-es6/**/*",
-     //"./node_modules/@rick.info.dev/lib-general-ts/**/*",
-     //"./_src/app/**/*"
-   //]
+  // ,"include": [
+  //   "./node_modules/@rick.info.dev/lib-general-es6/**/*",
+  //   //"./_src/app/**/*"
+  // ]
 
 }
